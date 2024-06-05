@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="ter.css">
+</head>
+
+<body>
+    <div id="calculator">
+        <input id="display" readonly>
+        <div id="keys">
+            <button onclick="AppendTodisplay('+')" class=" operator-btn">+</button>
+            <button onclick="AppendTodisplay('7')">7</button>
+            <button onclick="AppendTodisplay('8')">8</button>
+            <button onclick="AppendTodisplay('9')">9</button>
+            <button onclick="AppendTodisplay('-')" class=" operator-btn">-</button>
+            <button onclick="AppendTodisplay('4')">4</button>
+            <button onclick="AppendTodisplay('5')">5</button>
+            <button onclick="AppendTodisplay('6')">6</button>
+            <button onclick="AppendTodisplay('*')" class=" operator-btn">*</button>
+            <button onclick="AppendTodisplay('1')">1</button>
+            <button onclick="AppendTodisplay('2')">2</button>
+            <button onclick="AppendTodisplay('3')">3</button>
+            <button onclick="AppendTodisplay('/')" class="operator-btn">/</button>
+            <button onclick="AppendTodisplay('0')">0</button>
+            <button onclick="AppendTodisplay('.')">.</button>
+            <button onclick="calculate()">=</button>
+            <button onclick="cleardisplay()" class=" operator-btn">c</button>
+            <button onclick="cleardisplay()" class=" operator-btn">del</button>
+            <button onclick="AppendTodisplay('%')" class=" operator-btn">%</button>
+        </div>
+    </div>
+    <script src="ter.js"></script>
+</body>
+
+</html>
